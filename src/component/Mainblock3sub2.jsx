@@ -5,8 +5,6 @@ import { BiWater } from "react-icons/bi";
 import { GiPaperWindmill } from "react-icons/gi";
 import { PiWind } from "react-icons/pi";
 
-// image
-import Site from "../images/Site.jpg";
 import Mainblock3Sub2sup1 from "./Mainblock3Sub2sup1";
 
 const Mainblock3sub2 = () => {

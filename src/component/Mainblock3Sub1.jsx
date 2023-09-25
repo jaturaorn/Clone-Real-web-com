@@ -1,14 +1,20 @@
 // image
 import ImgDot from "../images/Dot-gra.png";
+import LineChart from "./LineChart";
 
 const Mainblock3Sub1 = () => {
   return (
     <div
-      className="w-full h-64 shadow-lg flex flex-col 
-    p-4 rounded-lg border border-slate-300 
-    bg-[url('https://images.pexels.com/photos/590014/pexels-photo-590014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
-    bg-cover bg-center"
+      className="w-full h-72 shadow-lg flex flex-col 
+    p-2 rounded-lg border border-slate-300"
+      // bg-[url('https://images.pexels.com/photos/590014/pexels-photo-590014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
+      // bg-cover bg-center
     >
+      <div className="flex justify-center h-full">
+        <div style={{ height: "auto", width: "500px" }}>
+          <LineChart />
+        </div>
+      </div>
       {/* <div className="flex justify-center">
         <img
           src={ImgDot}

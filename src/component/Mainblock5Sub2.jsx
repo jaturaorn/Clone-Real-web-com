@@ -17,43 +17,43 @@ const Mainblock5Sub2 = () => {
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Activation Time <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Activation Time <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Normalize Time <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Normalize Time <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Plant Name <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Plant Name <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Device <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Device <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              ERROR Code <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              ERROR Code <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Message <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Message <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th
               className="flex items-center justify-between border border-slate-600 
             px-2 py-2 w-[12.5%] text-[#0D4E9C] font-bold"
             >
-              Level <BsArrowDownUp classNameName="text-[#5A6EE6]" />
+              Level <BsArrowDownUp className="text-[#5A6EE6]" />
             </th>
             <th className="flex justify-center border border-slate-600 px-2 py-2 w-[12.5%]">
               <button
