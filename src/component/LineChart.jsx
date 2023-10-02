@@ -9,18 +9,39 @@ const data = {
   datasets: [
     {
       label: "My First dataset",
-      backgroundColor: "green",
+      backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
+      hoverBackgroundColor: "rgba(255,99,132,0.4)",
+      hoverBorderColor: "rgba(255,99,132,1)",
       data: [0, 10, 5, 2, 20, 30, 45],
       fill: false,
+      tension: 0.1,
     },
   ],
 };
 
+const options = {
+  maintainAspectRatio: false,
+  scales: {
+    y: {
+      stacked: true,
+      grid: {
+        display: true,
+        color: "rgba(255,99,132,0.2)",
+      },
+    },
+    x: {
+      grid: {
+        display: false,
+      },
+    },
+  },
+};
+
 const LineChart = () => {
   return (
-    <div style={{ height: "auto", width: 420 }}>
-      <Line data={data} />
+    <div>
+      <Line data={data} options={options} />
     </div>
   );
 };

@@ -28,7 +28,7 @@ const Mainblock2Sub3 = () => {
         />
         <button className="bg-[#5A6EE6] px-2 py-1">ok</button>
       </div>
-      <div className="flex justify-center">
+      <div style={({ width: 600 }, { height: 300 })}>
         <LineChart />
       </div>
     </div>
