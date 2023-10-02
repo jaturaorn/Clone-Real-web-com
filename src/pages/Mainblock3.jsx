@@ -17,7 +17,7 @@ const Mainblock3 = () => {
     <section className="flex px-2 gap-2 max-xl:flex-col">
       <div className="flex flex-col w-3/5 gap-y-3 max-xl:w-full">
         <div
-          className="w-full h-[350px] shadow-lg flex flex-col 
+          className="w-full h-[325px] shadow-lg flex flex-col 
                     p-2 rounded-lg border border-slate-300 max-sm:py-1 
                     max-sm:items-center bg-white bg-cover bg-center overflow-hidden"
           // bg-[url('https://images.pexels.com/photos/590014/pexels-photo-590014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
@@ -25,7 +25,7 @@ const Mainblock3 = () => {
         >
           <div
             className="flex space-x-2 justify-end max-sm:flex-col 
-                        max-sm:gap-y-0"
+                        max-sm:space-x-0"
           >
             <div className="flex gap-x-2 max-sm:mb-1">
               <button
@@ -62,7 +62,8 @@ const Mainblock3 = () => {
               <button className="bg-[#5A6EE6] px-2 py-1">ok</button>
             </div>
           </div>
-          <div style={({ width: 600 }, { height: 300 })}>
+          <div className="m-auto w-[900px] 
+          max-sm:w-[355px] max-sm:h-[200px] max-lg:w-[750px]">
             <BarChart />
           </div>
         </div>

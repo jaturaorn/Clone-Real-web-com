@@ -2,7 +2,7 @@
 import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 
-const labels = ["January", "February", "March", "April", "May", "June"];
+const labels = ["January", "February", "March", "April"];
 
 const data = {
   labels: labels,

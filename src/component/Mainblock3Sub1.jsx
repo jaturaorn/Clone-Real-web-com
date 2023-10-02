@@ -9,7 +9,8 @@ const Mainblock3Sub1 = () => {
       // bg-[url('https://images.pexels.com/photos/590014/pexels-photo-590014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
       // bg-cover bg-center
     >
-      <div style={({ width: 600 }, { height: 400 })}>
+      <div className="m-auto w-[850px] 
+      max-sm:w-[355px] max-sm:h-[200px] max-lg:w-[700px]">
         <LineChart />
       </div>
     </div>
